@@ -8,7 +8,7 @@ I have created the file directory system on which we will be working on. The div
         b.  Role based routing. (not graded, but important)
         c.  Services and complaints module.
         d.  Different dashboards.
-        e.  Analytics Page.
+        e.  Analytics Page and sync with all relevant modules.
     2.  Shafquat:
         a. Inventory module.
         b. Vouchers and shopping.
@@ -21,4 +21,4 @@ I have created the file directory system on which we will be working on. The div
         a.  Room management module.
         b.  Bills and payments.
         c.  Sync with other bills.
-
+We will be following our model of ApEx app and any confusion will be resolved via discusion.
