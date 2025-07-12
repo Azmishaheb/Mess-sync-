@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221697930537",
+    "project_id": "messsync-214d8",
+    "storage_bucket": "messsync-214d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221697930537:android:86ae17d5a1485ea169f338",
+        "android_client_info": {
+          "package_name": "com.mess.sync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU1sOrYov-g8p9MoZxMFr22TrbLwbjh-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
