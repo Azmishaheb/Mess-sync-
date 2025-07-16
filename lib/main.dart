@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'services/bill_page.dart';
+import 'services/meal_service.dart';
 
 void main() {
   runApp(const MessSyncApp());
@@ -104,6 +105,13 @@ class MessSyncHome extends StatelessWidget {
             context,
             MaterialPageRoute(builder: (context) => const BillPage()),
           );
+          else if (title == "Menu" || title == "Meal Services") {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const MealServicesPage()),
+          );
+        }
+
         } else {
           ScaffoldMessenger.of(
             context,
