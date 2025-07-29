@@ -1,0 +1,78 @@
+31.jpg — Inventory State (Bar Chart)
+File name: 31.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Inventory State</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family:Arial,sans-serif;background:#fafafa;margin:0;}
+    .container {
+      max-width:600px; margin:38px auto 0 auto;
+      background:#fff; border-radius:13px; box-shadow:0 2px 15px #0001;
+      padding:25px 15px 35px 15px;
+    }
+    .header { display:flex; align-items:center; }
+    .header h2 { margin:0;font-size:1.22rem; font-weight:600;}
+    .header .user {margin-left:auto;color:#444;}
+    .chart-title {font-size:1.15rem;color:#444;margin:18px 0 18px 0;}
+    .barchart {display:flex;align-items:end;margin-top:30px;gap:17px;height:210px;justify-content:center;width:98%;}
+    .bar {
+      width:24px;background:#317bba; display:flex;align-items:end;justify-content:center;border-radius:6px 6px 0 0;
+      position:relative;transition:background 0.12s;
+    }
+    .bar span {position:absolute;top:-23px;width:100%;text-align:center;color:#223; font-size:0.9rem;font-weight:bold;}
+    .bar:hover {background:#419684;}
+    .barlabels{display:flex;gap:17px;justify-content:center;margin-top:11px; width:98%;}
+    .barlabels div {width:24px;text-align:center;font-size:0.87rem;color:#444;}
+    .footer {margin:23px 0 0 7px;color:#888;font-size:0.94rem;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Mess Sync</h2>
+      <span class="user" style="margin-left:auto;"></span>
+    </div>
+    <div class="chart-title">Inventory State</div>
+    <div class="barchart">
+      <div class="bar" style="height:70px;"><span>7</span></div>
+      <div class="bar" style="height:60px;"><span>6</span></div>
+      <div class="bar" style="height:60px;"><span>6</span></div>
+      <div class="bar" style="height:30px;"><span>4</span></div>
+      <div class="bar" style="height:12px;"><span>1</span></div>
+      <div class="bar" style="height:70px;"><span>7</span></div>
+      <div class="bar" style="height:70px;"><span>7</span></div>
+      <div class="bar" style="height:100px;"><span>9</span></div>
+      <div class="bar" style="height:80px;"><span>8</span></div>
+      <div class="bar" style="height:40px;"><span>4</span></div>
+      <div class="bar" style="height:55px;"><span>5</span></div>
+      <div class="bar" style="height:110px;"><span>11</span></div>
+      <div class="bar" style="height:152px;"><span>20</span></div>
+      <div class="bar" style="height:97px;"><span>9</span></div>
+      <div class="bar" style="height:82px;"><span>8</span></div>
+    </div>
+    <div class="barlabels">
+      <div>Rice</div>
+      <div>Chicken</div>
+      <div>Tea</div>
+      <div>Dal</div>
+      <div>Alu</div>
+      <div>Beef</div>
+      <div>Sugar</div>
+      <div>Vegetable</div>
+      <div>Egg</div>
+      <div>Oil</div>
+      <div>Spice</div>
+      <div>Onion</div>
+      <div>Salt</div>
+      <div>Milk</div>
+      <div>Other</div>
+    </div>
+    <div class="footer">Release 1.0</div>
+  </div>
+</body>
+</html>

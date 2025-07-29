@@ -1,0 +1,55 @@
+39.jpg — User Roles Table
+File name: 39.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - User Roles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background:#fafafa; font-family:Arial,sans-serif; margin:0;}
+    .container { max-width: 660px; margin:34px auto; background:#fff; border-radius:10px; box-shadow:0 3px 18px #0001; padding:18px 10px 26px 10px;}
+    .header { display:flex;align-items:center;margin-bottom:8px; }
+    h2 { font-size:1.19rem;margin:0; }
+    .user-info { margin-left:auto; color:#555; font-size:1.01rem;}
+    .actions-bar { display:flex;align-items:center; gap:10px;}
+    .actions-bar input[type="search"]{flex:1; padding:7px 10px; border-radius:5px; border:1px solid #ccc;}
+    .actions-bar button {background:#232323; color:#fff; border:none; border-radius:5px; padding:7px 19px; font-weight:bold;}
+    table {width:100%; margin:17px auto 7px auto; border-collapse:collapse;}
+    th, td {padding:11px 7px; border-bottom:1px solid #ececec;}
+    th {background:#fafafa;color:#555;}
+    td {color:#232;}
+    tr:last-child td {border-bottom:none;}
+    .footer {color:#888; font-size:0.93rem; margin:20px 0 0 10px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>User Roles</h2>
+      <span class="user-info">Mess Sync</span>
+    </div>
+    <div class="actions-bar">
+      <input type="search" placeholder="Search: All Text Columns">
+      <button>Go</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Role Id</th>
+          <th>Role</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Administrator</td></tr>
+        <tr><td>2</td><td>Cook</td></tr>
+        <tr><td>3</td><td>Dining Member</td></tr>
+        <tr><td>4</td><td>Staff</td></tr>
+      </tbody>
+    </table>
+    <div class="footer">Release 1.0</div>
+  </div>
+</body>
+</html>

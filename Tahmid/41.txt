@@ -1,0 +1,58 @@
+41.jpg — Pending IDs Table
+File name: 41.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Pending IDs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background:#fafafa; font-family:Arial,sans-serif; margin:0;}
+    .container { max-width:730px; margin:38px auto; background:#fff; border-radius:10px; box-shadow:0 4px 18px #0001; padding:19px 12px 26px 12px; }
+    .header { display:flex;align-items:center;margin-bottom:10px;}
+    h2 { font-size:1.21rem;margin:0;}
+    .user-info { margin-left:auto;color:#555; font-size:1.01rem;}
+    .actions-bar {display:flex;align-items:center;gap:10px;}
+    .actions-bar input[type="search"]{flex:1;padding:8px 13px;border-radius:5px;border:1px solid #ccc;}
+    .actions-bar button{background:#232323;color:#fff;border:none;border-radius:5px;padding:7px 20px;font-weight:bold;}
+    table { width:100%; margin:18px auto 3px auto; border-collapse:collapse; }
+    th, td {padding:12px 7px; border-bottom:1px solid #ececec;}
+    th {background:#fafafa;color:#555;}
+    td {color:#232;}
+    tr:last-child td {border-bottom:none;}
+    .footer {color:#888;font-size:0.94rem;margin:16px 0 0 11px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Pending IDs</h2>
+      <span class="user-info">Mess Sync</span>
+    </div>
+    <div class="actions-bar">
+      <input type="search" placeholder="Search: All Text Columns">
+      <button>Go</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Unit</th>
+          <th>Mobile No</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>145</td><td>Lance Corporal</td><td>Arif</td><td>MIST</td><td>01769512233</td><td><button>Review</button></td></tr>
+        <tr><td>163</td><td>Cook</td><td>Jamal</td><td>MIST</td><td>01769512232</td><td><button>Review</button></td></tr>
+        <tr><td>181</td><td>Lt</td><td>Shahriar</td><td>141 Fd Wks</td><td>01743300312</td><td><button>Review</button></td></tr>
+      </tbody>
+    </table>
+    <div class="footer">Release 1.0</div>
+  </div>
+</body>
+</html>
