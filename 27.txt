@@ -1,0 +1,93 @@
+27.jpg — Meals List (Menu Table)
+File name: 27.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Meals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family:Arial,sans-serif;background:#fafafa;margin:0;}
+    .container { max-width:850px; margin:30px auto; background:#fff; border-radius:13px; box-shadow:0 2px 15px #0001;}
+    .header {display:flex;align-items:center;padding:22px 20px 0 20px;}
+    .header h2 {font-size:1.28rem; margin:0;}
+    .user-info {margin-left:auto; color:#555;}
+    .toolbar {display:flex;align-items:center;gap:8px;padding:0 20px 9px 20px;}
+    .toolbar input[type="search"] {flex:1;padding:7px 11px;border-radius:5px;border:1px solid #ccc;}
+    .toolbar button {font-size:1rem;font-weight:600;border:none;border-radius:5px;padding:7px 21px;background:#232323;color:#fff;}
+    table {width:97%; margin:19px auto 12px auto; border-collapse:collapse;}
+    th, td { padding:11px 7px; border-bottom:1px solid #f2f2f2;}
+    th { background:#fafafa; color:#555;}
+    td { color:#232;}
+    tr:last-child td {border-bottom:none;}
+    .footer {margin:12px 0 0 29px; color:#888; font-size:0.94rem;}
+    @media (max-width:750px){.container{max-width:98vw;}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Meals</h2>
+      <span class="user-info">maj adib</span>
+    </div>
+    <div class="toolbar">
+      <input type="search" placeholder="Search...">
+      <button>Go</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Meal Date</th>
+          <th>Breakfast</th>
+          <th>Estimated Price</th>
+          <th>Lunch</th>
+          <th>Estimated Price</th>
+          <th>Dinner</th>
+          <th>Estimated Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>9/15/2024</td>
+          <td>Noodles</td>
+          <td>30</td>
+          <td>Biriyani</td>
+          <td>300</td>
+          <td>Payesh, Grill</td>
+          <td>250</td>
+        </tr>
+        <tr>
+          <td>7/30/2025</td>
+          <td>Khichuri</td>
+          <td>76</td>
+          <td>Rice, Beef, Pulse</td>
+          <td>122</td>
+          <td>Grilled chicken, Bosnian Nun</td>
+          <td>166</td>
+        </tr>
+        <tr>
+          <td>9/2/2024</td>
+          <td>Poached Egg</td>
+          <td>15</td>
+          <td>Beef</td>
+          <td>175</td>
+          <td>Chicken Curry</td>
+          <td>165</td>
+        </tr>
+        <tr>
+          <td>2/17/2025</td>
+          <td>roti</td>
+          <td>23</td>
+          <td>roti</td>
+          <td>23</td>
+          <td>roti</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">Release 1.0</div>
+  </div>
+</body>
+</html>

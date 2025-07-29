@@ -1,0 +1,88 @@
+24.jpg – Meal Consumptions (with Member Filter, Search, List)
+File name: 24.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Meal Consumptions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family:Arial,sans-serif;background:#fafafa;margin:0;}
+    .header {display:flex;align-items:center;padding:12px 20px;}
+    .title {font-size:1.19rem;font-weight:bold;}
+    .user-info {margin-left:auto;color:#444;}
+    .search-area {display:flex;align-items:center;padding:0 20px 8px 20px;gap:12px;}
+    .search-area input[type="search"] {padding:7px 11px;flex:1;border-radius:5px;border:1px solid #d2d2d2;}
+    .search-area .text {font-size:0.95rem;background:#eaf4e6;color:#444;padding:4px 13px;border-radius:9px;}
+    .search-area button {background:#232323;color:#fff;border:none;border-radius:4px;font-weight:600;font-size:0.97rem;padding:7px 20px; margin-left:auto;}
+    .content {background:#fff; max-width:820px; margin:12px auto 0 auto; border-radius:11px; box-shadow:0 3px 16px #0001; padding-bottom:30px;}
+    h2 {font-size:1.18rem;margin:22px 0 12px 30px;}
+    table {width:97%; margin:10px auto 0 auto; border-collapse:collapse;}
+    th, td {padding:11px 7px; border-bottom:1px solid #f0f0f0;}
+    th {background:#fafafa; color:#555;}
+    td { color:#222;}
+    tr:last-child td {border-bottom:none;}
+    .footer {margin:9px 0 0 30px; color:#888; font-size:0.94rem;}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="title">Mess Sync</span>
+    <span class="user-info">maj adib</span>
+  </div>
+  <div class="search-area">
+    <input type="search" placeholder="Search...">
+    <span class="text">Dining Member 11793 14</span>
+    <button>Create</button>
+  </div>
+  <div class="content">
+    <h2>Meal Consumptions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Consumption Date</th>
+          <th>Dining Member</th>
+          <th>Meal</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&#9998;</td><td>9/3/2024</td><td>11700</td><td>Beef</td><td>306</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/15/2024</td><td>11700</td><td>Biriyani</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/26/2024</td><td>11700</td><td>Chicken Curry</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/3/2024</td><td>11700</td><td>Fish Curry</td><td>36</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/3/2024</td><td>11700</td><td>Hotchpotch</td><td>24</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/26/2024</td><td>11700</td><td>Hotchpotch , Beef</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/15/2024</td><td>11700</td><td>Payesh, Grill</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/26/2024</td><td>11700</td><td>Vegetable and Parata</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>2/17/2025</td><td>11700</td><td>roti</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>2/17/2025</td><td>11700</td><td>roti</td><td>0</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">Release 1.0</div>
+  </div>
+</body>
+</html>

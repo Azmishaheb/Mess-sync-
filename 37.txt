@@ -1,0 +1,77 @@
+37.jpg — Shopping History (Table, “Add an entry”)
+File name: 37.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Shopping History</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #fafafa; margin: 0;}
+    .container { max-width: 700px; margin: 36px auto; background: #fff; border-radius: 11px; box-shadow: 0 2px 18px #0001; }
+    .header { display: flex; align-items: center; padding: 22px 20px 0 20px; }
+    .header h2 { font-size: 1.21rem; margin: 0; margin-right: 14px;}
+    .user-info { margin-left:auto; color: #444; font-size: 1.01rem; }
+    .toolbar { display: flex; align-items: center; gap: 11px; padding: 0 20px 13px 20px;}
+    .toolbar input[type="search"] { flex: 1; padding: 8px 13px; border-radius: 5px; border: 1px solid #ccc;}
+    .toolbar button { background: #232323; color: #fff; padding: 8px 18px; border: none; border-radius: 5px; font-weight: bold; font-size: 1rem; cursor: pointer;}
+    .add-btn { background: #232323; color: #fff; padding: 9px 23px; border: none; border-radius: 5px; font-weight: 600; margin: 12px 20px 18px 20px;}
+    table { width: 96%; margin: 0 auto 13px auto; border-collapse: collapse;}
+    th, td { padding: 12px 7px; border-bottom: 1px solid #ececec;}
+    th { background: #fafafa; color: #444; }
+    td { color: #222; }
+    tr:last-child td { border-bottom: none;}
+    .footer { color: #888; font-size: 0.93rem; margin: 10px 0 0 22px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Shopping History</h2>
+      <div class="user-info">Mess Sync</div>
+    </div>
+    <div class="toolbar">
+      <input type="search" placeholder="Search: All Text Columns">
+      <button>Go</button>
+    </div>
+    <button class="add-btn">Add an entry</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Voucher</th>
+          <th>Product</th>
+          <th>Unit Price</th>
+          <th>Amount</th>
+          <th>Total Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>141</td><td>Milk</td><td>65.0</td><td>4</td><td>260.0</td>
+        </tr>
+        <tr>
+          <td>141</td><td>Egg</td><td>13.0</td><td>12</td><td>156.0</td>
+        </tr>
+        <tr>
+          <td>141</td><td>Fish</td><td>300.0</td><td>6</td><td>1,800.0</td>
+        </tr>
+        <tr>
+          <td>142</td><td>Dal</td><td>100.0</td><td>7</td><td>700.0</td>
+        </tr>
+        <tr>
+          <td>142</td><td>Chicken</td><td>185.0</td><td>6</td><td>1,110.0</td>
+        </tr>
+        <tr>
+          <td>142</td><td>Beef</td><td>690.0</td><td>5</td><td>3,450.0</td>
+        </tr>
+        <tr>
+          <td>161</td><td>Sugar</td><td>125.0</td><td>7</td><td>875.0</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">Release 1.0</div>
+  </div>
+</body>
+</html>
