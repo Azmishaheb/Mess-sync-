@@ -1,0 +1,59 @@
+33.jpg — Shopping Entry/Edit Modal
+File name: 33.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Shopping Entry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #fafafa; margin: 0; }
+    .modal {
+      max-width: 420px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 25px #0002;
+      padding: 28px 25px 22px 25px;
+    }
+    h2 { margin: 0 0 13px 0; font-size: 1.16rem; }
+    label { display:block; font-size:1rem; color:#444; margin:15px 0 6px 3px;}
+    select, input[type="text"], input[type="number"] {
+      width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; font-size: 1rem;
+    }
+    .actions { margin-top:22px; display:flex; justify-content:space-between; gap:11px;}
+    button {font-size:1rem; font-weight:600; border-radius:5px; border:none; padding:10px 0; width:41%;}
+    button.cancel { background:#ccc; color:#232; }
+    button.delete { background:#f66; color:#fff;}
+    button.apply { background:#222; color:#fff;}
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <h2>Shopping</h2>
+    <form>
+      <label for="voucher">Voucher</label>
+      <select id="voucher">
+        <option value="142" selected>142</option>
+        <!-- Other options could be added dynamically -->
+      </select>
+      <label for="product">Product</label>
+      <select id="product">
+        <option value="beef" selected>Beef</option>
+        <!-- Other products can be added -->
+      </select>
+      <label for="unit_price">Unit Price</label>
+      <input type="text" id="unit_price" value="130">
+      <label for="amount">Amount</label>
+      <input type="text" id="amount" value="2">
+      <div class="actions">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="button" class="delete">Delete</button>
+        <button type="submit" class="apply">Apply Change</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

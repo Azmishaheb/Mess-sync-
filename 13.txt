@@ -1,0 +1,100 @@
+13.jpg — Meal Consumptions History (Sidebar)
+File name: 13.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Meal Consumptions History</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; padding:0; font-family: Arial,sans-serif; background:#fafafa; }
+    .container { display:flex; min-height: 100vh; }
+    .sidebar {
+      width: 240px;
+      background: #f6f6f6;
+      border-right: 1px solid #ececec;
+      padding-top:14px;
+      min-height:100vh;
+    }
+    .sidebar ul { list-style:none; padding:0; margin:0;}
+    .sidebar ul li {
+      padding: 10px 22px;
+      cursor:pointer;
+      border-radius:5px;
+      margin:2px 7px;
+      font-size:1.04rem;
+      color: #222;
+      transition: background 0.15s;
+      display: flex;
+      align-items: center;
+    }
+    .sidebar ul li.active,
+    .sidebar ul li:hover { background: #e2fbe2; }
+    .sidebar ul li svg {margin-right:8px;}
+    .sidebar strong { display:block; font-size:1.16rem; margin-left:16px; margin-bottom:18px; margin-top:8px; }
+    .main-content { flex:1; background:#fafafa; padding:34px 30px 20px 30px;}
+    h2 { margin: 0 0 17px 0;}
+    .user-info { text-align:right; color:#444; font-size:1rem; margin-bottom:10px;}
+    .table-container{
+      background:#fff;
+      border-radius:8px;
+      box-shadow: 0 2px 9px #0001;
+      padding:18px 20px;
+      width:100%;
+      max-width:500px;
+    }
+    table { width:100%; border-collapse:collapse; margin-top:8px;}
+    th, td { padding:10px; border-bottom:1px solid #f0f0f0;}
+    th { background:#fafafa; font-size:1rem; color:#444;}
+    td { font-size:1.04rem; color:#212;}
+    .footer { color:#888; font-size:0.93rem; margin:18px 0 0 0;}
+    @media (max-width:700px) { .sidebar { display:none; } .main-content {padding:12px;} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <strong>Mess Sync</strong>
+      <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Bills</li>
+        <li class="active">Meal Consumptions History</li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div class="user-info">It ayon</div>
+      <h2>Meal Consumptions History</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Consumption Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>9/15/2024</td></tr>
+            <tr><td>9/15/2024</td></tr>
+            <tr><td>9/15/2024</td></tr>
+            <tr><td>7/30/2025</td></tr>
+            <tr><td>7/30/2025</td></tr>
+            <tr><td>9/26/2024</td></tr>
+            <tr><td>9/26/2024</td></tr>
+            <tr><td>7/30/2025</td></tr>
+            <tr><td>7/31/2025</td></tr>
+            <tr><td>7/31/2025</td></tr>
+            <tr><td>6/19/2025</td></tr>
+            <tr><td>6/19/2025</td></tr>
+            <tr><td>9/3/2024</td></tr>
+            <tr><td>9/3/2024</td></tr>
+          </tbody>
+        </table>
+        <div class="footer">Total 14</div>
+      </div>
+      <div class="footer">Release 1.0</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+12.jpg – Cook State with Sidebar Navigation
+File name: 12.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Cook State</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {margin:0;padding:0;font-family:Arial,sans-serif;background:#fafafa;}
+    .page {display:flex; min-height: 100vh;}
+    .sidebar {
+      background:#f6f6f6;
+      width: 230px;
+      min-height: 100vh;
+      border-right:1px solid #ececec;
+      padding-top:18px;
+      box-sizing:border-box;
+    }
+    .sidebar h3 {
+      margin-top:12px;
+      margin-bottom:22px;
+      font-size:1.09rem;
+      color:#3a4a34;
+      padding-left:24px;
+    }
+    .sidebar ul { list-style:none; padding:0; margin:0;}
+    .sidebar ul li {
+      padding: 9px 17px;
+      color: #1a1a1a;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 4px 8px;
+      transition: background 0.16s;
+      display: flex;
+      align-items: center;
+      font-size: 1.04rem;
+    }
+    .sidebar ul li.active, .sidebar ul li:hover { background: #e2fbe2;}
+    .sidebar ul li svg {margin-right:8px;}
+    .main-content {flex:1;padding:28px;}
+    h2 {margin:0 0 19px 0;}
+    table {width:100%;border-collapse:collapse; background:#fff;}
+    th, td {padding:11px 8px; border-bottom:1px solid #f0f0f0;}
+    th {background:#fafafa;}
+    .footer {color: #888; font-size: 0.93rem; margin: 16px 0 0 0;}
+    .user-head {padding-left:26px; color:#444;font-size:1rem;}
+    @media (max-width:700px) {.sidebar{display:none;}.main-content{padding:9px;}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="sidebar">
+      <div style="display:flex;align-items:center;margin-bottom:22px;">
+        <strong style="font-size:1.14rem; margin-left:9px;">Mess Sync</strong>
+      </div>
+      <ul>
+        <li>Home</li>
+        <li>Overview</li>
+        <li>Users</li>
+        <li>User Roles</li>
+        <li>Pending IDs</li>
+        <li>Shopping History</li>
+        <li>Vouchers List</li>
+        <li>Inventory State</li>
+        <li>Inventory</li>
+        <li>Messing</li>
+        <li>Meals</li>
+        <li>Edit Menu</li>
+        <li>Meal Consumptions</li>
+        <li>Bills</li>
+        <li>Payments</li>
+        <li>Dining Member State</li>
+        <li>Staff State</li>
+        <li class="active">Cook State</li>
+        <li>Administration</li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div style="display:flex;justify-content:space-between;">
+        <h2>Cook State</h2>
+        <span class="user-head">maj adib</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>No</th>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Unit</th>
+            <th>Mobile No</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>163</td>
+            <td>123456</td>
+            <td>Ck</td>
+            <td>Jamal</td>
+            <td>MIST</td>
+            <td>01769512232</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer">Total 1</div>
+      <div class="footer">Release 1.0</div>
+    </div>
+  </div>
+</body>
+</html>
