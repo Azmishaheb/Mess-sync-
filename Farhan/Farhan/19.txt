@@ -1,0 +1,59 @@
+19.jpg — Messing (Add/Edit, with Amount input)
+File name: 19.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Messing Entry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family:Arial,sans-serif; background:#f8f8f8; margin:0;}
+    .modal {
+      background: #fff; border-radius:8px;
+      box-shadow:0 8px 22px #0002; max-width:420px;
+      margin:42px auto; padding:30px 26px 22px 26px;
+      position:relative;
+    }
+    h2 {margin:0 0 19px 0; font-size:1.17rem;}
+    label {font-size:0.95rem; color:#555;margin-top:9px;display:block;}
+    input, select {
+      width:100%; padding:9px; margin-bottom:2px;
+      border-radius:4px; border:1px solid #ccc;
+      font-size:1rem;
+    }
+    .actions { display:flex;justify-content:flex-end;gap:10px;margin-top:18px;}
+    button {
+      border-radius:4px; border:none; font-size:1rem;
+      padding:10px 0; width:45%; font-weight:600;
+      cursor:pointer;
+    }
+    button.cancel {background:#ccc; color:#333;}
+    button.create {background:#232323; color:#fff;}
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <h2>Messing</h2>
+    <form>
+      <label for="meal_date">Meal Date</label>
+      <input type="text" id="meal_date" value="7/30/2025" required>
+      <label for="meal">Meal</label>
+      <select id="meal" required>
+        <option selected>Grilled chicken, Bosnian Nun</option>
+      </select>
+      <label for="product">Product</label>
+      <select id="product" required>
+        <option selected>Atta</option>
+      </select>
+      <label for="amount">Amount</label>
+      <input type="text" id="amount" value=".500" required>
+      <div class="actions">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="submit" class="create">Create</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

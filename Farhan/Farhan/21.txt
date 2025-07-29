@@ -1,0 +1,69 @@
+21.jpg – Mess State (Bar Chart for Tomorrow’s State)
+File name: 21.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Meal State</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family:Arial,sans-serif; background:#fafafa; margin:0;}
+    .header {display:flex;align-items:center;padding:14px 20px 0 20px;}
+    .header .title {font-weight:600; font-size:1.3rem; flex:1;}
+    .user-info {color:#444; font-size:1rem;}
+    .actions {margin-top:8px; margin-bottom:28px; display:flex; align-items:center; gap:18px; justify-content:flex-end;}
+    .actions button {background:#222; color:#fff; padding:8px 22px; border:none; border-radius:5px; font-weight:600; cursor:pointer;}
+    h2 {margin:18px 0 13px 28px; font-size:1.13rem;}
+    .chart-area {
+      width:92%; max-width:660px; height:370px; background:#fff; margin:24px auto 0 auto; border-radius:12px; box-shadow:0 2px 18px #0001; display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;
+      padding:24px 0 30px 0;
+    }
+    .no-data {
+      color:#a8a8a8; font-size:1.08rem; margin-top:20px; margin-bottom:32px;
+    }
+    .bar-chart { width:360px; display:flex;align-items:flex-end; justify-content:center;gap:44px;height:170px;}
+    .bar {
+      width:60px; background:#5489a3; border-radius:5px 5px 0 0; display:flex;align-items:flex-end;justify-content:center; position:relative;
+      transition:background 0.15s;
+    }
+    .bar:hover { background:#51988a; }
+    .bar-label {
+      position:absolute; left:0; right:0; top:-22px; text-align:center; color:#3b5570; font-weight:600; font-size:1rem;
+    }
+    .xlabels {
+      display:flex;justify-content:center;gap:44px;margin-top:13px;width:360px;
+    }
+    .xlabels div {
+      width:60px;text-align:center;font-size:0.95rem;color:#555;word-break:break-word;
+    }
+    .footer {margin:19px 0 0 34px; color:#888; font-size:0.94rem;}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="title">Mess Sync</span>
+    <span class="user-info">maj adib</span>
+  </div>
+  <div class="actions">
+    <button>Issue Items</button>
+  </div>
+  <h2>Meal State</h2>
+  <div class="chart-area">
+    <div style="color:#878787; text-align:center; margin-bottom:20px;">No data to display</div>
+    <div style="text-align:center; margin-top:8px; font-weight:600;">Tomorrow's State</div>
+    <div class="bar-chart">
+      <div class="bar" style="height:95px;"><span class="bar-label">1</span></div>
+      <div class="bar" style="height:95px;"><span class="bar-label">1</span></div>
+      <div class="bar" style="height:95px;"><span class="bar-label">1</span></div>
+    </div>
+    <div class="xlabels">
+      <div>Rice, Beef, Pulse</div>
+      <div>Grilled chicken, Bosnian Nun</div>
+      <div>Khichuri</div>
+    </div>
+  </div>
+  <div class="footer">Release 1.0</div>
+</body>
+</html>

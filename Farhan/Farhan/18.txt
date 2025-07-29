@@ -1,0 +1,89 @@
+18.jpg — Meal Consumptions (with prices, search, user = maj adib)
+File name: 18.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Meal Consumptions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial,sans-serif; background:#fafafa; margin:0;}
+    .header { display:flex;align-items:center;padding:12px 20px;}
+    .header .back { font-size:1.2rem;margin-right:13px;cursor:pointer;}
+    .header .title { font-size:1.18rem;font-weight:500;flex:1;}
+    .header .user { font-size:1rem;color:#444;}
+    .content { background:#fff; max-width:750px; margin:18px auto 0 auto; border-radius:10px; box-shadow:0 3px 16px #0001; padding-bottom:28px;}
+    h2 { font-size:1.22rem; margin:20px 0 10px 28px;}
+    .search-bar { display:flex;align-items:center;padding:0 28px 11px 28px;margin-top:8px;}
+    .search-bar input[type="search"] { flex:1; padding:7px 13px; border-radius:5px; border:1px solid #d3d3d3; margin-right:9px;}
+    .search-bar .text { font-size:0.97rem; color:#555; margin-left:8px; background:#eef5ee; border-radius:8px; padding:3px 14px;}
+    .search-bar .create { margin-left:auto; background:#232323; color:#fff; font-weight:bold; border:none; border-radius:5px; padding:8px 19px; font-size:0.98rem; cursor:pointer;}
+    table { width:97%; margin:9px auto; border-collapse:collapse;}
+    th, td { padding:11px 7px; border-bottom:1px solid #f0f0f0;}
+    th { background:#fafafa; color:#555;}
+    td { color:#232;}
+    tr:last-child td { border-bottom:none;}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="back">&#8592;</span>
+    <span class="title">Mess Sync</span>
+    <span class="user">maj adib &#9660;</span>
+  </div>
+  <div class="content">
+    <h2>Meal Consumptions</h2>
+    <div class="search-bar">
+      <input type="search" placeholder="Search...">
+      <span class="text">Dining Member 11793 14</span>
+      <button class="create">Create</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Consumption Date</th>
+          <th>Dining Member</th>
+          <th>Meal</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&#9998;</td><td>9/3/2024</td><td>11700</td><td>Beef</td><td>306</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/15/2024</td><td>11700</td><td>Biriyani</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/26/2024</td><td>11700</td><td>Chicken Curry</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/3/2024</td><td>11700</td><td>Fish Curry</td><td>36</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/3/2024</td><td>11700</td><td>Hotchpotch</td><td>24</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/26/2024</td><td>11700</td><td>Hotchpotch , Beef</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/15/2024</td><td>11700</td><td>Payesh, Grill</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>9/26/2024</td><td>11700</td><td>Vegetable and Parata</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>2/17/2025</td><td>11700</td><td>roti</td><td>0</td>
+        </tr>
+        <tr>
+          <td>&#9998;</td><td>2/17/2025</td><td>11700</td><td>roti</td><td>0</td>
+        </tr>
+        <!-- ... You can add more rows as in the screenshot -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

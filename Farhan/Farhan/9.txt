@@ -1,0 +1,62 @@
+9.jpg – Payments List Page
+File name: 9.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Payments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0;}
+    .header { display: flex; align-items: center; padding: 16px 20px 0 20px;}
+    .header .back { font-size: 1.4rem; margin-right: 14px; cursor: pointer;}
+    .header .title { font-size: 1.3rem; font-weight: bold; flex: 1;}
+    .header .user { font-size: 1.01rem; color: #444; }
+    .content { background: #fff; margin: 18px auto 0 auto; border-radius: 8px; box-shadow: 0 3px 16px #0001; max-width: 530px; padding: 0 0 2px 0;}
+    h2 { font-size: 1.3rem; margin: 22px 0 14px 24px; }
+    .actions { display: flex; align-items: center; padding: 0 24px 8px 24px; }
+    .actions input[type="search"] { flex: 1; padding: 7px 13px; border-radius: 5px; border: 1px solid #dcdcdc; margin-right: 9px;}
+    .actions button { padding: 8px 17px; background: #232323; color: #fff; border: none; border-radius: 5px; font-weight: bold; font-size: 1rem; cursor: pointer;}
+    table { width: 95%; margin: 13px auto 13px auto; border-collapse: collapse; }
+    th, td { padding: 12px 7px; border-bottom: 1px solid #f0f0f0;}
+    th { background: #fafafa; color: #555;}
+    tr:last-child td { border-bottom: none;}
+    .footer { margin: 0 0 0 21px; color: #888; font-size: 0.9rem;}
+    @media (max-width: 600px) {.content{max-width:98vw;}}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="back">&#8592;</span>
+    <span class="title">Mess Sync</span>
+    <span class="user">maj adib &#9660;</span>
+  </div>
+  <div class="content">
+    <h2>Payments</h2>
+    <div class="actions">
+      <input type="search" placeholder="Search">
+      <button>Create</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>User No</th>
+          <th>Payment Date</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>11700</td>
+          <td>9/2/2024</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">1 - 1</div>
+    <div class="footer" style="margin-bottom:13px;">Release 1.0</div>
+  </div>
+</body>
+</html>

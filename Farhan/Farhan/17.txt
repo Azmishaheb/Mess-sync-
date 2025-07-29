@@ -1,0 +1,73 @@
+17.jpg — Bills (Summary – It ayon)
+File name: 17.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Bills</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background:#fafafa; margin:0; }
+    .header { display:flex;align-items:center;padding:12px 20px;}
+    .header .back {font-size:1.2rem;margin-right:13px;cursor:pointer;}
+    .header .title {font-size:1.18rem;font-weight:500;flex:1;}
+    .header .user {font-size:1rem;color:#444;}
+    .content { background:#fff; max-width:700px; margin:24px auto 0 auto; border-radius:10px; box-shadow:0 2px 12px #0001; padding-bottom:28px;}
+    h2 { font-size:1.25rem; margin:18px 0 9px 28px;}
+    .tools { display:flex;align-items:center;padding:0 28px 8px 28px;margin-top:6px;}
+    .tools input[type="search"] { flex:1;padding:7px 13px; border-radius:5px; border:1px solid #d0d0d0;margin-right:8px;}
+    .tools button {padding:7px 15px;background:#232323;color:#fff; border:none; border-radius:5px; font-weight:bold; font-size:1rem; cursor:pointer;}
+    table { width:92%; margin:9px auto; border-collapse:collapse;}
+    th, td { padding:12px 7px; border-bottom:1px solid #f0f0f0;}
+    th { background:#fafafa; color:#555;}
+    tr:last-child td { border-bottom:none;}
+    .footer { margin-left:28px; font-size:0.93rem; color:#888;}
+    @media (max-width:650px) {.content{max-width:98vw;}}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="back">&#8592;</span>
+    <span class="title">Mess Sync</span>
+    <span class="user">It ayon &#9660;</span>
+  </div>
+  <div class="content">
+    <h2>Bills</h2>
+    <div class="tools">
+      <input type="search" placeholder="Search: All Text Columns">
+      <button>Go</button>
+      <button style="background:#666;margin-left:6px;">Actions &#9660;</button>
+      <button style="margin-left:6px;background:#eee;color:#111;">Reset</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Total Bill</th>
+          <th>Payment Received At</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024-09</td>
+          <td>60.11</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2025-07</td>
+          <td>178.25</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2025-06</td>
+          <td>87.5</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">Total 3</div>
+  </div>
+</body>
+</html>

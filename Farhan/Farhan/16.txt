@@ -1,0 +1,81 @@
+16.jpg — Staff State (Expanded Table)
+File name: 16.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Staff State</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background:#fafafa; font-family:Arial,sans-serif; margin:0;}
+    .container { max-width: 860px; margin:45px auto; background:#fff; border-radius:12px; box-shadow:0 4px 15px #0001;}
+    .header { display:flex; align-items:center; padding:22px 25px 0 25px;}
+    .header h2 { margin:0; font-size:1.31rem;}
+    .user-info { margin-left:auto; color:#444; font-size:1rem;}
+    .table-area { padding:20px 25px 28px 25px;}
+    table { width:100%; border-collapse:collapse;}
+    th, td { padding:12px 7px; border-bottom:1px solid #ececec;}
+    th { background:#fafafa; font-size:1rem; color:#444;}
+    td { font-size:1.06rem; color:#232;}
+    .footer {color:#888;font-size:0.94rem;margin-top:13px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Staff State</h2>
+      <div class="user-info">maj adib</div>
+    </div>
+    <div class="table-area">
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>No</th>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Unit</th>
+            <th>Mobile No</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>201</td><td>11705</td><td>Lt</td><td>Akram</td><td>9 Sig</td><td>01769511705</td>
+          </tr>
+          <tr>
+            <td>181</td><td>11717</td><td>Lt</td><td>Shahriar</td><td>141 Fd Wks...</td><td>01743300312</td>
+          </tr>
+          <tr>
+            <td>161</td><td>11734</td><td>Lt</td><td>Parvez</td><td>2 BIR</td><td>01769511734</td>
+          </tr>
+          <tr>
+            <td>162</td><td>11760</td><td>Lt</td><td>Ramisa</td><td>2 Sig</td><td>01769511760</td>
+          </tr>
+          <tr>
+            <td>301</td><td>11753</td><td>Lt</td><td>Asef Ahasan</td><td>37 BIR</td><td>01769511753</td>
+          </tr>
+          <tr>
+            <td>142</td><td>11700</td><td>Lt</td><td>Nahid</td><td>10 EB</td><td>01769511700</td>
+          </tr>
+          <tr>
+            <td>261</td><td>10365</td><td>Maj</td><td>Asad</td><td>10 Sig Bn</td><td>01769013230</td>
+          </tr>
+          <tr>
+            <td>143</td><td>11793</td><td>Lt</td><td>Ayon</td><td>3 Sig</td><td>01769511793</td>
+          </tr>
+          <tr>
+            <td>241</td><td>11697</td><td>Lt</td><td>Tanvir</td><td>4 Bir</td><td>01769511697</td>
+          </tr>
+          <tr>
+            <td>281</td><td>11789</td><td>Lt</td><td>Shafquat J...</td><td>14 BIR</td><td>01769511789</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer">Total 10</div>
+      <div class="footer">Release 1.0</div>
+    </div>
+  </div>
+</body>
+</html>
