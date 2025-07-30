@@ -1,0 +1,84 @@
+34.jpg — Inventory Table Page
+File name: 34.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Inventory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background:#fafafa; font-family:Arial,sans-serif; margin:0;}
+    .container {
+      max-width:730px; margin:34px auto; background:#fff; border-radius:10px; box-shadow:0 3px 17px #0001;
+      padding:15px 10px 27px 10px;
+    }
+    .header { display:flex; align-items:center; margin-bottom: 14px;}
+    h2 { font-size:1.21rem; margin:0; }
+    .actions-bar {display:flex; align-items:center;gap:8px;}
+    .actions-bar input[type="search"]{flex:1;padding:7px 10px;border-radius:5px;border:1px solid #d3d3d3;}
+    .actions-bar button{padding:7px 19px;margin-left:9px;background:#232323;color:#fff;border:none;border-radius:5px;font-weight:bold;}
+    table {width:100%; margin:20px auto 3px auto; border-collapse:collapse;}
+    th, td {padding:12px 7px; border-bottom:1px solid #ececec;}
+    th {background:#fafafa;color:#555;}
+    td {color:#232;}
+    tr:last-child td {border-bottom:none;}
+    .footer {color:#888; font-size:0.93rem; margin:17px 0 0 10px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Inventory</h2>
+      <div style="margin-left:auto;color:#444;font-size:1.02rem;">Mess Sync</div>
+    </div>
+    <div class="actions-bar">
+      <input type="search" placeholder="Search: All Text Columns">
+      <button>Go</button>
+      <button style="background:#eee;color:#232;font-weight:500;">Actions &#9660;</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Inventory</th>
+          <th>Product</th>
+          <th>Unit Price</th>
+          <th>Quantity</th>
+          <th>Net Worth</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>141</td><td>Rice</td><td>67.5</td><td>7.2</td><td>486</td>
+        </tr>
+        <tr>
+          <td>142</td><td>Salt</td><td>61</td><td>5.85</td><td>356.85</td>
+        </tr>
+        <tr>
+          <td>161</td><td>Chic...</td><td>187.5</td><td>6</td><td>1125</td>
+        </tr>
+        <tr>
+          <td>149</td><td>Milk</td><td>62.5</td><td>4</td><td>250</td>
+        </tr>
+        <tr>
+          <td>201</td><td>Tea</td><td>720</td><td>1</td><td>720</td>
+        </tr>
+        <tr>
+          <td>144</td><td>Oil</td><td>177.5</td><td>7.39</td><td>1311.73</td>
+        </tr>
+        <tr>
+          <td>146</td><td>Dal</td><td>100</td><td>6.4</td><td>640</td>
+        </tr>
+        <tr>
+          <td>163</td><td>Noo...</td><td>31.5</td><td>4</td><td>126</td>
+        </tr>
+        <tr>
+          <td>182</td><td>Alu</td><td>30</td><td>10</td><td>300</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">Release 1.0</div>
+  </div>
+</body>
+</html>

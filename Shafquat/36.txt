@@ -1,0 +1,43 @@
+36.jpg — Voucher Entry Form
+File name: 36.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Voucher Entry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family:Arial,sans-serif; background:#fafafa; margin:0;}
+    .modal {background:#fff; max-width:375px; margin:42px auto; border-radius:11px; box-shadow:0 7px 22px #0002; padding:28px 26px 20px 26px;}
+    h2 {margin:0 0 15px 0; font-size:1.15rem;}
+    label { font-size:0.99rem; color:#444; margin-top:10px; display:block;}
+    select, input[type="text"] {
+      width:100%;padding:10px;border-radius:5px;border:1px solid #ccc;font-size:1rem;margin-bottom:6px;
+    }
+    .actions {margin-top:19px;display:flex;justify-content:flex-end;gap:13px;}
+    button {font-size:1rem;font-weight:600;border-radius:4px;border:none;padding:10px 0;width:49%;}
+    button.cancel {background:#ccc;color:#222;}
+    button.add {background:#232323;color:#fff;}
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <h2>Voucher Entry</h2>
+    <form>
+      <label for="shopped_by">Shopped By</label>
+      <select id="shopped_by" required>
+        <option value="11700" selected>11700</option>
+        <!-- Other users can be added here -->
+      </select>
+      <label for="shopping_date">Shopping Date</label>
+      <input type="text" id="shopping_date" value="7/03/2025" required>
+      <div class="actions">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="submit" class="add">Add Voucher</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
