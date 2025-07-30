@@ -1,0 +1,130 @@
+5.jpg – Application Submitted (Waiting for Approval)
+File name: 5.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Application Submitted</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #f3f3f3;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding-top: 40px;
+    }
+    .status {
+      margin-bottom: 28px;
+      background: #dbffdb;
+      color: #227735;
+      padding: 20px 22px;
+      border-radius: 7px;
+      border: 1px solid #86d686;
+      width: 370px;
+      font-size: 1.13rem;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 1px 8px #bdbdbd30;
+    }
+    .status:before {
+      content: "✓";
+      color: #46a346;
+      font-weight: bold;
+      margin-right: 10px;
+      font-size: 1.3em;
+    }
+    .login-box {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px #0001;
+      padding: 32px 26px 22px 26px;
+      width: 370px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .login-box .logo {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: #395e26;
+      margin-bottom: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      color: #dab740;
+    }
+    .login-box h1 {
+      margin: 0 0 19px 0;
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #232323;
+    }
+    .login-box input[type="text"], .login-box input[type="password"] {
+      width: 100%;
+      padding: 11px;
+      margin-bottom: 14px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 1rem;
+    }
+    .login-box label {
+      width: 100%;
+      font-size: 0.93rem;
+      color: #666;
+      display: flex;
+      align-items: center;
+      margin-bottom: 13px;
+    }
+    .login-box label input[type="checkbox"] {
+      margin-right: 7px;
+    }
+    .login-box button {
+      background: #222;
+      color: #fff;
+      border: none;
+      padding: 12px 0;
+      width: 100%;
+      border-radius: 3px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .register-link {
+      margin-top: 18px;
+      font-size: 0.97rem;
+      color: #333;
+      border-top: 1px solid #eee;
+      padding-top: 12px;
+      width: 100%;
+      text-align: center;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="status">
+    Your application has been submitted and waiting for approval. Please check back within 24 hours.
+  </div>
+  <div class="login-box">
+    <div class="logo">🍴</div>
+    <h1>Mess Sync</h1>
+    <form>
+      <input type="text" placeholder="No" required>
+      <input type="password" placeholder="Password" required>
+      <label><input type="checkbox"> Remember me</label>
+      <button type="submit">Sign In</button>
+    </form>
+    <div class="register-link">Not a member? Register here</div>
+  </div>
+</body>
+</html>

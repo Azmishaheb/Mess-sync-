@@ -1,0 +1,83 @@
+3.jpg – Apply for ID Page
+File name: 3.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Sync - Apply for an ID</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            padding: 20px;
+        }
+        .modal {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 320px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+            margin-top: 20px;
+        }
+        .modal header {
+            font-weight: bold;
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+        }
+        .modal input {
+            width: 100%;
+            padding: 10px;
+            margin: 7px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .modal input:required {
+            border-left: 5px solid #e94e4e;
+        }
+        .modal .actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        button {
+            background-color: #1f1f1f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button.cancel {
+            background-color: #ccc;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal">
+        <header>Apply for an ID <button class="cancel" onclick="window.history.back()">×</button></header>
+        <form>
+            <input type="text" placeholder="No" name="no" required>
+            <input type="text" placeholder="Rank" name="rank" required>
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Unit" name="unit" required>
+            <input type="text" placeholder="Mobile No" name="mobile" required>
+            <div class="actions">
+                <button type="button" class="cancel" onclick="window.history.back()">Cancel</button>
+                <button type="submit">Apply</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

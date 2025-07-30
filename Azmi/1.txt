@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Sync - Splash</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d4d8d8;
+            background-image: radial-gradient(circle, #d4d8d8 5%, transparent 5%), radial-gradient(circle, #d4d8d8 5%, transparent 5%);
+            background-position: 0 0, 10px 10px;
+            background-size: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            background-color: #3a6f2d;
+            border-radius: 50%;
+            border: 10px solid #dab740;
+            box-shadow: 5px 5px 8px #888888;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .logo:before, .logo:after {
+            content: '';
+            background-color: #dab740;
+            position: absolute;
+            border-radius: 4px;
+        }
+        /* Fork */
+        .logo:before {
+            width: 9px;
+            height: 46px;
+            left: 35px;
+            top: 20px;
+            box-shadow: 0 7px 0 #dab740, 0 15px 0 #dab740;
+        }
+        /* Knife */
+        .logo:after {
+            width: 14px;
+            height: 44px;
+            right: 35px;
+            top: 20px;
+            border-radius: 0 20px 20px 0;
+        }
+        h1 {
+            margin: 0;
+            font-weight: 300;
+            color: #7b7771;
+            font-size: 2rem;
+            letter-spacing: 0.06em;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo"></div>
+    <h1>Mess Sync</h1>
+</body>
+</html>

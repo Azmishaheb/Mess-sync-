@@ -1,0 +1,144 @@
+4.jpg – Listing/Table Page
+File name: 4.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Sync - Listing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 15px;
+            width: 90%;
+            max-width: 600px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f8f8;
+        }
+        button.create {
+            background-color: #1f1f1f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        button.edit {
+            background-color: transparent;
+            border: none;
+            color: #1f1f1f;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        nav button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        .search {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mess Sync</h1>
+            <nav>
+                <button title="Messages">&#128172;</button>
+                <button title="Help">?</button>
+                <button title="Profile">&#128100;</button>
+            </nav>
+        </header>
+        <input type="search" class="search" placeholder="Search...">
+        <button class="create">Create</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Edit</th>
+                    <th>No</th>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Unit</th>
+                    <th>Mobile No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button class="edit">✎</button></td>
+                    <td>11770</td>
+                    <td>Lt</td>
+                    <td>Afrad</td>
+                    <td>2 Arty</td>
+                    <td>01769511770</td>
+                </tr>
+                <tr>
+                    <td><button class="edit">✎</button></td>
+                    <td>12012</td>
+                    <td>Lt</td>
+                    <td>Refath</td>
+                    <td>5 Sig</td>
+                    <td>868696</td>
+                </tr>
+                <tr>
+                    <td><button class="edit">✎</button></td>
+                    <td>112345</td>
+                    <td>Ck</td>
+                    <td>Emon</td>
+                    <td>MIST</td>
+                    <td>01769512235</td>
+                </tr>
+            </tbody>
+        </table>
+        <footer>Release 1.0</footer>
+    </div>
+</body>
+</html>
