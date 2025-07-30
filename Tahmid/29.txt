@@ -1,0 +1,70 @@
+29.jpg — Add/Edit Menu (with Selects for Meals)
+File name: 29.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Add/Edit Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {font-family:Arial,sans-serif; background:#fafafa; margin:0;}
+    .modal {
+      max-width:420px; margin:40px auto;
+      background:#fff; border-radius:11px;
+      box-shadow:0 7px 19px #0002;
+      padding:16px 18px 18px 18px;
+    }
+    h2 {margin:0 0 15px 0; font-size:1.18rem; }
+    label {display:block;font-size:0.98rem;color:#444;margin:17px 0 6px 3px;}
+    input[type="text"], select {
+      width:100%; padding:9px; border-radius:5px; border:1px solid #ccc; font-size:1rem;
+    }
+    .actions {margin-top:25px; display:flex; justify-content:space-between;gap:12px;}
+    button {border-radius:5px;font-size:1rem;font-weight:600;padding:11px 0;border:none;width:47%;}
+    button.cancel {background:#ccc;color:#222;}
+    button.create {background:#232323;color:#fff;}
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <h2>Menu</h2>
+    <form>
+      <label for="date">Date</label>
+      <input type="text" id="date" value="7/31/2025" required>
+      
+      <label for="breakfast">Breakfast</label>
+      <select id="breakfast">
+        <option selected>Porota, Alu and Beef, Tea</option>
+        <option>Khichuri</option>
+        <!-- Add more options as needed -->
+      </select>
+      <label for="breakfast_price">Estimated Price</label>
+      <input type="text" id="breakfast_price" value="56.63" required>
+
+      <label for="lunch">Lunch</label>
+      <select id="lunch">
+        <option>Select Lunch</option>
+        <option>Beef Khichuri</option>
+        <option>Rice, Beef, Pulse</option>
+        <!-- Add more options as needed -->
+      </select>
+      <label for="lunch_price">Estimated Price</label>
+      <input type="text" id="lunch_price">
+
+      <label for="dinner">Dinner</label>
+      <select id="dinner">
+        <option>Select Dinner</option>
+      </select>
+      <label for="dinner_price">Estimated Price</label>
+      <input type="text" id="dinner_price">
+
+      <div class="actions">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="submit" class="create">Create</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+14.jpg — Staff State (Single Row Table)
+File name: 14.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Staff State</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background:#fafafa; font-family:Arial,sans-serif; margin:0; }
+    .container { max-width: 670px; margin:45px auto; background:#fff; border-radius:12px; box-shadow:0 3px 13px #0001; }
+    .header { display:flex; align-items:center; padding:20px 22px 0 22px;}
+    .header h2 { margin:0; font-size:1.3rem; }
+    .user-info { margin-left:auto; color:#444; font-size:1rem;}
+    .table-area { padding:20px 22px 24px 22px;}
+    table { width:100%; border-collapse:collapse; }
+   th, td { padding:12px 8px; border-bottom:1px solid #ececec;}
+    th { background:#fafafa; font-size:1rem; color:#444; }
+    td { font-size:1.06rem; color:#222; }
+    .footer { color:#888; font-size:0.94rem; margin-top:18px; margin-bottom:7px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Staff State</h2>
+      <div class="user-info">maj adib</div>
+    </div>
+    <div class="table-area">
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>No</th>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Unit</th>
+            <th>Mobile No</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>145</td>
+            <td>112233</td>
+            <td>Cpl</td>
+            <td>Arif</td>
+            <td>MIST</td>
+            <td>01769512233</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer">Total 1</div>
+      <div class="footer">Release 1.0</div>
+    </div>
+  </div>
+</body>
+</html>

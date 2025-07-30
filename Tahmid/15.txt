@@ -1,0 +1,61 @@
+15.jpg — Meal Consumptions History (with Details)
+File name: 15.html
+
+xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mess Sync - Meal Consumption Details</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {margin:0; padding:0; font-family:Arial,sans-serif; background:#fafafa;}
+    .container {max-width: 650px; margin:38px auto; background:#fff; border-radius:9px; box-shadow: 0 3px 14px #0001;}
+    .header {display:flex;align-items:center;padding:20px 22px 0 22px;}
+    .header h2 {margin:0;font-size:1.31rem;}
+    .user-info {margin-left:auto;color:#444;font-size:1rem;}
+    .table-area {padding:22px;}
+    table {width:100%;border-collapse:collapse;}
+    th, td {padding:10px 6px; border-bottom:1px solid #ececec;}
+    th {background:#fafafa;font-size:1rem;color:#444;}
+    td {font-size:1.03rem;color:#232;}
+    .footer {color:#888;font-size:0.93rem;margin-top:12px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Meal Consumptions History</h2>
+      <div class="user-info">It ayon</div>
+    </div>
+    <div class="table-area">
+      <table>
+        <thead>
+          <tr>
+            <th>Consumption Date</th>
+            <th>Price</th>
+            <th>Meal Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>9/15/2024</td><td>0</td><td>Noodles</td></tr>
+          <tr><td>9/15/2024</td><td>0</td><td>Biriyani</td></tr>
+          <tr><td>9/15/2024</td><td>0</td><td>Payesh, Grill</td></tr>
+          <tr><td>7/30/2025</td><td>0</td><td>Khichuri</td></tr>
+          <tr><td>7/30/2025</td><td>0</td><td>Grilled chicken, Bosnian Nun</td></tr>
+          <tr><td>9/26/2024</td><td>0</td><td>Vegetable and Parata</td></tr>
+          <tr><td>9/26/2024</td><td>0</td><td>Chicken Curry</td></tr>
+          <tr><td>7/30/2025</td><td>178.25</td><td>Rice, Beef, Pulse</td></tr>
+          <tr><td>7/31/2025</td><td>8.75</td><td>Porota, Alu and Beef, Tea</td></tr>
+          <tr><td>7/31/2025</td><td>0</td><td>rice, sobji, chicken, dal</td></tr>
+          <tr><td>6/19/2025</td><td>0</td><td>Roti</td></tr>
+          <tr><td>6/19/2025</td><td>87.5</td><td>Khichuri</td></tr>
+          <tr><td>9/3/2024</td><td>24.31</td><td>Hotchpotch</td></tr>
+          <tr><td>9/3/2024</td><td>35.8</td><td>Fish Curry</td></tr>
+        </tbody>
+      </table>
+      <div class="footer">Total 14</div>
+    </div>
+  </div>
+</body>
+</html>
